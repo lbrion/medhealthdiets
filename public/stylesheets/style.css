@@ -1,3 +1,7 @@
+body {
+  background: #99d9ea;
+}
+
 .body_container {
   width: 1024px;
   height: 512px;
@@ -5,6 +9,7 @@
   	-webkit-box-shadow: 8px 0 8px -10px black, -8px 0 8px -10px black;
 	   -moz-box-shadow: 8px 0 8px -10px black, -8px 0 8px -10px black;
 	        box-shadow: 8px 0 8px -10px black, -8px 0 8px -10px black;
+  background: white;
 }
 
 .header_container {
