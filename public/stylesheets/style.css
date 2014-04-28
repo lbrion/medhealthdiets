@@ -30,3 +30,8 @@ body {
   padding: 5px;
   display: inline;
 }
+
+iframe {
+  display: block;
+  margin: auto;
+}
