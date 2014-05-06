@@ -17,7 +17,13 @@ app.use(app.router);
 app.use(express.static(path.join(__dirname, 'public')));
 
 //GET home page.
-app.get('/', routes.index);
+app.get('/', function (req, res) {
+  res.render('index', { appTitle: 'MedHealthDiets: your source for medical diet information' });
+});
+
+app.get('/about', function (req, res) {
+  res.render('about', { appTitle: 'MedHealthDiets: your source for medical diet information' });
+});
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
