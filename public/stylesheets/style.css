@@ -1,3 +1,4 @@
+
 body {
   background: #99d9ea;
 }
@@ -6,9 +7,9 @@ body {
   width: 800px;
   height: auto;
   margin: auto;
-  	-webkit-box-shadow: 8px 0 8px -10px black, -8px 0 8px -10px black;
-	   -moz-box-shadow: 8px 0 8px -10px black, -8px 0 8px -10px black;
-	        box-shadow: 8px 0 8px -10px black, -8px 0 8px -10px black;
+  -webkit-box-shadow: 8px 0 8px -10px black, -8px 0 8px -10px black;
+  -moz-box-shadow: 8px 0 8px -10px black, -8px 0 8px -10px black;
+  box-shadow: 8px 0 8px -10px black, -8px 0 8px -10px black;
   background: white;
 }
 
@@ -17,8 +18,8 @@ body {
   height: 200px;
   background: white;
   box-sizing: border-box;
-  -moz-box-sizing:border-box;
-  -webkit-box-sizing:border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
 }
 
 .header_container {
@@ -27,20 +28,29 @@ body {
   margin: auto;
   display: block;
 }
+
 .tabrow {
-    text-align: center;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    line-height: 24px;
-    float: right;
+  text-align: center;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  line-height: 24px;
+  float: right;
 }
+
 .tabrow li {
-    margin: 0 10px;
-    padding: 0 10px;
-    border: 1px solid #AAA;
-    background: #ECECEC;
-    display: inline-block;
+  margin: 0 10px;
+  padding: 0 10px;
+  border: 1px solid #AAA;
+  background: #99d9ea;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.tabrow li a:link, .tabrow li a:visited {
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .nav_bar_item {
