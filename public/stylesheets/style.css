@@ -48,6 +48,16 @@ body {
   display: inline;
 }
 
+.searchbar {
+  padding: 5px;
+}
+
+.sidebar {
+  width: 200px;
+  height: auto;
+  background: black;
+}
+
 iframe {
   display: block;
   margin: auto;

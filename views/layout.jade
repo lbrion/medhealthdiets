@@ -1,0 +1,21 @@
+head
+  title= "MedHealthDiets.com your source for medical diet information"
+  link(rel='stylesheet', href='/stylesheets/style.css')
+  link(rel='icon', href='/images/icon.png')
+
+body
+  div(class="body_container")
+    div(class="banner")
+      a(href='/')
+        img(src='/images/logo.png')
+    div(class="header_container")
+      ul(class="tabrow")
+        li(class="selected") Home
+        li Diets
+        li About
+        li Contact
+        input(class="searchbar")
+    div(class="sidebar")
+    div(class="content")
+      block content
+    block footer
