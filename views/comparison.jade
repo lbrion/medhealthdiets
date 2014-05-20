@@ -1,0 +1,37 @@
+extends layout
+
+block nav-bar
+  ul(class='tabrow')
+        li(class='selected')
+          a(href='/') Home
+        li 
+          a(href='/diets') Diets
+        li
+          a(href='/about') About
+        li 
+          a(href='/contact') Contact
+
+block content
+  table
+    tr
+      th 
+      th medhealthdiets
+      th WebMD
+      th 
+        | Mayo Clinic
+        br
+        | Website
+      th Blogs
+      th 
+        | Diet News
+        br
+        | Articles
+    tr
+      td Diet Information
+      td.green
+      td.green
+      td.red
+      td.green
+      td.green
+    tr
+      td 

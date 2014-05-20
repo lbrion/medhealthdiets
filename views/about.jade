@@ -1,6 +1,67 @@
 extends layout
 
+block nav-bar
+  ul(class='tabrow')
+        li
+          a(href='/') Home
+        li 
+          a(href='/diets') Diets
+        li(class='selected')
+          a(href='/about') About
+        li 
+          a(href='/contact') Contact
+
 block content
   div(class="content")
     h1 About Page
+    h2 Website Plan
+    ul
+      li Business Overview
+        ul
+          li Target Audience
+            ul
+              li This website is primarily for adults who have been recommended by their doctor to follow a specific diet in order to deal with their medical condition.
+              li This website is also for parents of children who have been recommended by their doctor to follow a specific diet in order to deal with their medical condition.
+              li
+                | A secondary audience for this website is the group of adults looking to change their lifestyle by choosing a diffent healthier diet, also listed with their benefits and 
+                | shortcomings on the site.
+              li Adults using this website should consult a doctor before changing their diet.
+          li Value
+            ul
+              li The value of this website is to serve as a resource for medical diet information including but not limited to suggested foods, recepies, foods to avoid, and external resources.
+              li 
+                | This is an advantage over similar sites that talk about specific diets because there will be information pertaining to all facets of the medical diet, from ingredients to buy,
+                | to recipes to make, to the science and reasoning behind the diet.
+          li Financial Goals
+            ul
+              li The initial goal of this website is to earn enough money from users to pay for hosting services. The means of raising this money will be discussed in the revenues section.
+              li After the website is self sustaining, extra revenue will be used to pay writers and researchers for well researched articles on particular diets and medical diet culture.
+              li Additional revenue will also be used to compensate developers for time spent working on the site.
+          li Content Structure
+            ul
+              li TBD
+              li TBD
+      li Costs
+        ul
+          li Web Hosting
+            ul
+              li This site is hosted using Amazon Web Services whose cost scales with the popularity of the website.
+              li Web hosting should cost about $100 / year.
+          li Development Time
+            ul
+              li Development costs about $40 / hour.
+              li Currently the developer is volunteering his time towards this project.
+      li Revenues
+        ul
+          li Advertisements
+            ul
+              li Different advertisement options will be tested.
+              li Google AdSense: $20 / month
+              li TBD
+          li Support From Health Organizations
+            ul
+              li The owner of this site will apply for support from foundations that support healthy lifestyles through dietary options.
+          li User Donations
+            ul
+              li An account will be set up that will allow for users to donate money to support the website if they found the information satisfactory.
     block footer    

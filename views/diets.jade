@@ -1,5 +1,16 @@
 extends layout
 
+block nav-bar
+  ul(class='tabrow')
+        li
+          a(href='/') Home
+        li(class='selected')
+          a(href='/diets') Diets
+        li
+          a(href='/about') About
+        li 
+          a(href='/contact') Contact
+
 block content
   div(class="content")
     h1 Diets Page

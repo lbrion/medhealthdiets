@@ -9,16 +9,7 @@ body
       a(href='/')
         img(src='/images/logo.png')
     div(class='header_container')
-      ul(class='tabrow')
-        li
-          a(href='/') Home
-        li 
-          a(href='/diets') Diets
-        li 
-          a(href='/about') About
-        li 
-          a(href='/contact') Contact
-        input(class='searchbar' placeholder='Search...')
+      block nav-bar
     div(class="sidebar")
     div(class="content")
       block content
