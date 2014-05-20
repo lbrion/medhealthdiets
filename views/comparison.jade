@@ -1,15 +1,7 @@
 extends layout
 
-block nav-bar
-  ul(class='tabrow')
-        li(class='selected')
-          a(href='/') Home
-        li 
-          a(href='/diets') Diets
-        li
-          a(href='/about') About
-        li 
-          a(href='/contact') Contact
+block link
+  -var selected = 'Competitor Comparison';
 
 block content
   table
@@ -28,10 +20,37 @@ block content
         | Articles
     tr
       td Diet Information
-      td.green
-      td.green
-      td.red
-      td.green
-      td.green
+      td &#10003;
+      td &#10003;
+      td &#10007;
+      td &#10003;
+      td &#10003;
+    tr
+      td Disease Information
+      td &#10003;
+      td &#10003;
+      td &#10003;
+      td &#10003;
+      td &#10007;
     tr
       td 
+        | Diet and Disease
+        br
+        | Information
+        br
+        | Together
+      td &#10003;
+      td &#10007;
+      td &#10007;
+      td &#10003;
+      td &#10007;
+    tr
+      td
+        | Information About
+        br
+        | Multiple Diets
+      td &#10003;
+      td &#10003;
+      td &#10003;
+      td &#10007;
+      td &#10007;

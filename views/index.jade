@@ -1,15 +1,7 @@
 extends layout
 
-block nav-bar
-  ul(class='tabrow')
-        li(class='selected')
-          a(href='/') Home
-        li 
-          a(href='/diets') Diets
-        li
-          a(href='/about') About
-        li 
-          a(href='/contact') Contact
+block link
+  -var selected = 'Home';
 
 block content
   div(class="content")

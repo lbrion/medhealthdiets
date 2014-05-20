@@ -9,7 +9,19 @@ body
       a(href='/')
         img(src='/images/logo.png')
     div(class='header_container')
-      block nav-bar
+      block link
+        -var selected = 'Home';
+
+      -var menu = {'Home': '/', 'Diets': '/diets', 'About': '/about', 'Contact': '/contact', 'Competitor Comparison': '/competitorcomparison'};
+
+      ul(class='tabrow')
+        each val, key in menu
+          if selected === key
+            li(class='selected')
+              a(href = val)= key
+          else
+            li
+              a(href=val)= key
     div(class="sidebar")
     div(class="content")
       block content
