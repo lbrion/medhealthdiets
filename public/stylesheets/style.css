@@ -162,3 +162,13 @@ table,th,td
 .green {
   background: green;
 }
+
+.quick-link-list {
+  text-align: center;
+}
+
+.quick-link-list ul {
+}
+
+.quick-link-list ul li {
+}
