@@ -1,0 +1,167 @@
+extends layout
+
+block link
+  -var selected = 'Diets';
+
+block content
+  div(class="content")
+    h1.diet-title Diabetes
+    .quick-link-list
+      h2 Quick Links
+      ul(class="quick-link-list")
+        li
+          a(href="#overview") Diabetes Overview
+        li
+          a(href="#eat") Foods to Eat
+        li
+          a(href="#avoid") Foods to Avoid
+        li
+          a(href="#recipes") Some Recipes
+        li
+          a(href="#links") Helpful Links
+    #overview
+    h2 Overview
+    p Diabetes can be a hard disease to manage. Controlling blood sugar levels can be difficult with all of the added sugars in processed foods today.
+    p People with diabetes should take the following into consideration: 
+    ul
+      li Making sure their food is balanced with their insuling and oral medications.
+      li Exercising to help manage blood sugar levels.
+      li Keeping track of calories to avoid an undesirable rise in blood glucose.
+    p Keeping track of your diet can help control your glucose levels and prevent unwanted weight gain. If your blood glucose levels aren't tracked and kept within a certain threshold, it can lead to serious problems such as chronic complications with your nervous system, kidneys, or cardiovascular system. By choosing to eat the right thing around your medications, you can keep your blood glucose within a safe range. As with most medical conditions, maintaining a healthy weight will help mitigate the effects of diabetes as well as provide a variety of other health benefits.
+    #eat
+    h2 Foods to Eat
+    .food-table
+      table
+          tr
+            td(colspan="2")
+              | Foods to Eat
+          tr
+            td
+              | Row 1
+            td
+              | Vegetables
+          tr
+            td
+              | Row 2
+            td
+              | Whole Grains
+          tr
+            td
+              | Row 2
+            td
+              | Fruits
+          tr
+            td
+              | Row 3
+            td
+              | Non-fat Dairy Products
+          tr
+            td
+              | Row 3
+            td
+              | Beans
+          tr
+            td
+              | Row 3
+            td
+              | Lean Meats
+          tr
+            td
+              | Row 3
+            td
+              | Poultry
+          tr
+            td
+              | Row 3
+            td
+              | Fish
+          tr
+            td
+              | Row 3
+            td
+              | Nuts
+          tr
+            td
+              | Row 3
+            td
+              | Vegetable Oils
+
+    
+    #avoid
+    h2 Foods to Avoid
+    .food-table
+      table
+          tr
+            td(colspan="2")
+              | Foods to Avoid
+          tr
+            td
+              | Row 1
+            td
+              | Saturated Fats
+          tr
+            td
+              | Row 2
+            td
+              | Trans Fats
+          tr
+            td
+              | Row 2
+            td
+              | Cholesterol
+          tr
+            td
+              | Row 3
+            td
+              | Sodium
+          tr
+            td
+              | Row 3
+            td
+              | Fatty Meats
+          tr
+            td
+              | Row 3
+            td
+              | Processed Snacks
+          tr
+            td
+              | Row 3
+            td
+              | Baked Goods
+          tr
+            td
+              | Row 3
+            td
+              | Organ Meats
+    
+    #recipes
+    h2 Sample Recipes
+    
+    p The following recipes were taken from 
+      a(href="http://www.diabetes.org") diabetes.org
+      |  and follow the guidelines outlined above.
+
+    ul
+      li
+        a(href="http://www.diabetes.org/mfa-recipes/recipes/2013-07-avocado-veggie-sandwich.html") Diabetes Friendly Avocado Veggie Sandwich
+      li
+        a(href="http://www.diabetes.org/mfa-recipes/recipes/2012-05-fish-tacos-quick-recipes.html") Diabetes Friendly Fish Tacos
+      li
+        a(href="http://www.diabetes.org/mfa-recipes/recipes/2013-01-high-fiber-zucchini-muffins.html") Diabetes Friendly High Fiber Zucchini Muffins
+
+    #links
+    h2 External Resources
+
+    ul
+      li
+        p 
+          a(href="http://www.diabetes.org") diabetes.org
+          |  is a website devoted to everything diabetes.
+      li
+        p
+          a(href="http://www.diabetes.org/mfa-recipes/recipes/") Recipes
+          |  are also available at diabetes.org.
+      li
+        p WebMD also has a comprehensive page on diabetes   
+          a(href="http://www.webmd.com/diabetes/default.htm?names-dropdown") here.

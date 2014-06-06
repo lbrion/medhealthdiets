@@ -37,6 +37,10 @@ app.get('/competitorcomparison', function (req, res) {
   res.render('comparison', {appTitle: 'MedHealthDiets: your source for medical diet information' });
 });
 
+app.get('/diets/diabetes', function (req, res) {
+  res.render('diabetes', { appTitle: 'MedHealthDiets: your source for medical diet information' });
+});
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
