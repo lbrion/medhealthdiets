@@ -1,0 +1,65 @@
+extends layout
+
+block link
+  -var selected = 'Diets';
+
+block content
+  div(class="content")
+    h1.diet-title Thyroid Disease
+    .quick-link-list
+      h2 Quick Links
+      ul(class="quick-link-list")
+        li
+          a(href="#overview") Diabetes Overview
+        li
+          a(href="#eat") Foods to Eat
+        li
+          a(href="#avoid") Foods to Avoid
+        li
+          a(href="#recipes") Some Recipes
+        li
+          a(href="#links") Helpful Links
+    #overview
+    h2 Overview
+    p Text
+    #eat
+    h2 Foods to Eat
+    .food-table
+      table
+          tr
+            td(colspan="2")
+              | Foods to Eat
+          tr
+            td
+              | Row 1
+            td
+              | Vegetables
+                  
+    #avoid
+    h2 Foods to Avoid
+    .food-table
+      table
+          tr
+            td(colspan="2")
+              | Foods to Avoid
+          tr
+            td
+              | Row 1
+            td
+              | Saturated Fats
+          
+    #recipes
+    h2 Sample Recipes
+    
+    ul
+      li
+        a(href="http://www.diabetes.org/mfa-recipes/recipes/2013-07-avocado-veggie-sandwich.html") Diabetes Friendly Avocado Veggie Sandwich
+
+    #links
+    h2 External Resources
+
+    ul
+      li
+        p 
+          a(href="http://www.diabetes.org") diabetes.org
+          |  is a website devoted to everything diabetes.

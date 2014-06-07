@@ -1,0 +1,120 @@
+extends layout
+
+block link
+  -var selected = 'Diets';
+
+block content
+  div(class="content")
+    h1.diet-title High Blood Pressure
+    .quick-link-list
+      h2 Quick Links
+      ul(class="quick-link-list")
+        li
+          a(href="#overview") Diabetes Overview
+        li
+          a(href="#eat") Foods to Eat
+        li
+          a(href="#avoid") Foods to Avoid
+        li
+          a(href="#recipes") Some Recipes
+        li
+          a(href="#links") Helpful Links
+    #overview
+    h2 Overview
+    p High blood pressure can be caused by a variety of things, including genetic inheritence, diet, and stress. Eating a diet that lacks fatty acids that can clog your arteries helps lower blood pressure. Potassium has been shown to help lower blood pressure significantly. 
+    #eat
+    h2 Foods to Eat
+    .food-table
+      table
+          tr
+            td(colspan="2")
+              | Foods to Eat
+          tr
+            td
+              | Row 1
+            td
+              | Whole Grain Foods
+          tr
+            td
+              | Row 1
+            td
+              | Unsalted Pretzels
+          tr
+            td
+              | Row 1
+            td
+              | Green Leafy Vegetables
+          tr
+            td
+              | Row 1
+            td
+              | Fat-free Dairy Products
+          tr
+            td
+              | Row 1
+            td
+              | Beans
+          tr
+            td
+              | Row 1
+            td
+              | Nuts
+          tr
+            td
+              | Row 1
+            td
+              | Sorbets and Ices
+          tr
+            td
+              | Row 1
+            td
+              | High Volumes of Water
+                  
+    #avoid
+    h2 Foods to Avoid
+    .food-table
+      table
+          tr
+            td(colspan="2")
+              | Foods to Avoid
+          tr
+            td
+              | Row 1
+            td
+              | Fatty Dairy Products
+          tr
+            td
+              | Row 1
+            td
+              | Junk Food
+          tr
+            td
+              | Row 1
+            td
+              | High Sodium Foods
+          tr
+            td
+              | Row 1
+            td
+              | Processed Foods - often high in Sodium
+          tr
+            td
+              | Row 1
+            td
+              | High Volumes of Alcohol
+          
+    #recipes
+    h2 Sample Recipes
+    
+    ul
+      li
+        a(href="http://www.diabetes.org/mfa-recipes/recipes/2013-07-avocado-veggie-sandwich.html") Diabetes Friendly Avocado Veggie Sandwich
+
+    #links
+    h2 External Resources
+
+    ul
+      li
+        p 
+          a(href="http://www.diabetes.org") diabetes.org
+          |  is a website devoted to everything diabetes.
