@@ -85,6 +85,15 @@ app.get('/diets/weightloss', function (req, res) {
   res.render('weightloss', { appTitle: 'MedHealthDiets: your source for medical diet information' })
 });
 
+app.get('/reviewJC', function (req, res) {
+  res.render('reviewJC', { appTitle: 'MedHealthDiets: your source for medical diet information' })
+});
+
+app.get('/reviewKJ', function (req, res) {
+  res.render('reviewKJ', { appTitle: 'MedHealthDiets: your source for medical diet information' })
+});
+
+
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
 });
