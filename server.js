@@ -45,8 +45,8 @@ app.get('/diets/highbloodpressure', function (req, res) {
   res.render('highbloodpressure', { appTitle: 'MedHealthDiets: your source for medical diet information' })
 });
 
-app.get('/diets/alzheimers', function (req, res) {
-  res.render('alzheimers', { appTitle: 'MedHealthDiets: your source for medical diet information' })
+app.get('/diets/thyroid', function (req, res) {
+  res.render('thyroid', { appTitle: 'MedHealthDiets: your source for medical diet information' })
 });
 
 app.get('/diets/eyesight', function (req, res) {
