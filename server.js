@@ -61,10 +61,6 @@ app.get('/diets/cystinuria', function (req, res) {
   res.render('cystinuria', { appTitle: 'MedHealthDiets: your source for medical diet information' })
 });
 
-app.get('/diets/heart', function (req, res) {
-  res.render('heart', { appTitle: 'MedHealthDiets: your source for medical diet information' })
-});
-
 app.get('/diets/kidney', function (req, res) {
   res.render('kidney', { appTitle: 'MedHealthDiets: your source for medical diet information' })
 });
@@ -75,10 +71,6 @@ app.get('/diets/liver', function (req, res) {
 
 app.get('/diets/lowsodium', function (req, res) {
   res.render('lowsodium', { appTitle: 'MedHealthDiets: your source for medical diet information' })
-});
-
-app.get('/diets/thyroid', function (req, res) {
-  res.render('thyroid', { appTitle: 'MedHealthDiets: your source for medical diet information' })
 });
 
 app.get('/diets/weightloss', function (req, res) {
@@ -93,6 +85,13 @@ app.get('/reviewKJ', function (req, res) {
   res.render('reviewKJ', { appTitle: 'MedHealthDiets: your source for medical diet information' })
 });
 
+app.get('/future', function (req, res) {
+  res.render('future', { appTitle: 'MedHealthDiets: your source for medical diet information' })
+});
+
+app.get('/making', function (req, res) {
+  res.render('making', { appTitle: 'MedHealthDiets: your source for medical diet information' })
+});
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
